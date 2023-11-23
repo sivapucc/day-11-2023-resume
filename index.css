@@ -1,0 +1,149 @@
+body{
+    background-color:dimgrey;
+}
+.container{
+    height: auto;
+    background-color: aliceblue;
+    
+    border-left: solid 2px;
+    border-right: solid 2px;
+}
+.top{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    height: 150px;
+    background-color:aqua;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+img{
+    border-radius: 90px;
+    width: 150px;
+    height: 150px;
+    border: dotted yellow;
+}
+.header1{
+    height: 30px;
+    background-color:gray;
+}
+.header2{
+    height: 30px;
+    background-color:aqua;
+}
+.name{
+    
+    position: absolute;
+    background-color: yellow;
+    padding: 20px;
+    top:120px;
+    z-index: 1;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.address{
+    text-align: center;
+    border-bottom: gray solid 2px;
+   
+}
+.mob-tab{
+    display: none;
+}
+.list-items-2,.list-items-3{
+    
+    display: flex;
+    align-items: start;
+}
+.lap-tv-values{
+    
+    line-height: 32px;
+    margin-left: 160px; 
+}
+.lap-tv-values-2{
+    
+    line-height: 32px;
+    margin-left: 25px;
+}
+.verticle{
+    border-left: 6px solid gray;
+    height: auto;
+    margin-top: 40px;
+}
+.icon-alinment{
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 2px dotted yellow;
+    border-radius: 100%;
+}
+.title-align{
+    font-weight: bold;
+    font-size:  30px;
+    margin-left: 20px;
+}
+.subtitle-align{
+    font-weight: bold;
+    font-size:  20px;
+    margin-left: 20px;
+}
+.t-align{
+    margin-left: 20px;
+}
+/* mobile resposive*/
+
+@media screen and (min-width:300px)and (max-width:500px){
+    .verticle,.list-items-2,.list-items-3{
+        display: none;
+    }
+    .list-items{
+        display: block;
+        align-items: center;
+    }
+    .lb,.lv{
+        width: 100%;
+    }
+    .title-align{
+            font-weight: bold;
+            font-size: 20px;
+            margin-left: 20px;
+    }
+    .subtitle-align{
+        font-weight: bold;
+        font-size:  20px;
+        margin-left: 70px;
+    }
+    .icon-alinment{
+        margin-top: 20px;
+        margin-left: 80px;
+        border: 2px dotted yellow;
+        border-radius: 100%;
+    }
+}
+
+@media screen and (min-width:600px)and (max-width:1200px){
+    .list-items-2,.list-items-3{
+        display: none;
+    }
+    .list-items{
+        display: block;
+        align-items: center;
+    }
+    .lb,.lv{
+        width: 100%;
+    }
+    .title-align{
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .subtitle-align{
+        font-weight: bold;
+        font-size:  20px;
+        margin-left: 70px;
+    }
+}
+
+
+
+
